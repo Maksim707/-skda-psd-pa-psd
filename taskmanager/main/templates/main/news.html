@@ -1,0 +1,9 @@
+{%extends 'main/base.html'%}
+{%block title%}News!?!?!?{%endblock%}
+{%block content%}
+<p>Воу это новости!!!</p>
+{%for dude in allnew%}
+<h1>{{dude.newtitle}}</h1>
+<p>{{dude.newdesc}}</p>
+{%endfor%}
+{%endblock%}
